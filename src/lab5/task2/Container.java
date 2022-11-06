@@ -1,5 +1,7 @@
 package lab5.task2;
 
+import java.util.ArrayList;
+
 import lab5.task1.Task;
 
 public interface Container {
@@ -40,4 +42,11 @@ public interface Container {
      *                  After the transfer, container.size() == 0
      */
     void transferFrom(Container container);
+
+    /**
+     * Return all the tasks stored in the Container.
+     *
+     * @return The list of the tasks stored in the Container.
+     */
+    ArrayList<Task> getTasks();
 }
