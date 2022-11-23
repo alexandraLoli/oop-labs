@@ -1,5 +1,5 @@
 # Visitor & OOP Concepts Lab
-
+ 
 The purpose of the first and main task is to use the Visitor pattern to generate two types of formatted text,
 one in dokuwiki syntax, one in markdown syntax.
 
@@ -42,7 +42,7 @@ DocumentVisitor - the interface implemented by all the visitors applied on TextS
 WikiGenerator
     - applies the visitors on a collection of TextSegment objects
     - uses the visitors' getDocument() method to obtain the document string and a StringBuilder object
-
+ 
 +---------------------------+
 | TextSegment               |
 +---------------------------+
